@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///todos.db'
 db = SQLAlchemy(app)
 
-# Todo model
+# Todo model 
 
 
 class Todo(db.Model):
